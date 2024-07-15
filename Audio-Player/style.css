@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    height: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+.innerTwo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box{
+    height: 350px;
+    width: 350px;
+    /* background-color: aqua; */
+}
+.boxTwo{
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    overflow: hidden;
+    overflow: scroll;
+    gap: 10%;
+}
+.musics{
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.images{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.divMain{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+.iconparent{
+    border: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: green;
+}
+#boxTwoThre{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
