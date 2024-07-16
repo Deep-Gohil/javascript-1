@@ -17,7 +17,7 @@ const Mapper = (data) => {
 
         image.src = ele.snippet.thumbnails.medium.url
         image.classList.add("img-fluid")
-        console.log(ele);
+        // console.log(ele);
         image.addEventListener("click", () => { 
             localStorage.setItem("videoID", JSON.stringify(ele.id.videoId))
             window.location.href = "/Youtube/videoPlayer.html" 
@@ -38,16 +38,14 @@ const fetchDataAndMap = async (search) => {
 }
 
 const handleSearch = (e) => {
-    console.log(e.key);
+    // console.log(e.key);
     if (e.key == "Enter") {
         let searchReesult=document.getElementById("search").value
         fetchDataAndMap(searchReesult);
     }
 }
 
+
 document.getElementById("search").addEventListener("keypress", handleSearch)
 
 // fetchDataAndMap("");
-
-
-
