@@ -62,7 +62,6 @@ const handleData = (e) => {
     let aud = document.getElementById("audioTag")
     aud.src = e.audio
 
-    // e.icon.classList.add("fa", "fa-pause", "play-icon")
 }
 
 const Mapper = (audios) => {
