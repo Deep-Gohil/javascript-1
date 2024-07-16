@@ -12,7 +12,7 @@ document.getElementById("about").innerHTML = bookList.description
 const handleData = (e) => {
     e.preventDefault();
     let comment = document.getElementById("commentInput").value 
-    document.getElementById("comment").innerHTML = `Comment: ${comment}`
+    document.getElementById("comment").append( `${comment} `)
 }
 
 document.getElementById("form").addEventListener("submit", handleData);
