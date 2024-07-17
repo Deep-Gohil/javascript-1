@@ -49,4 +49,4 @@ const handleSearch = (e) => {
 
 document.getElementById("search").addEventListener("keypress", handleSearch)
 
-// fetchDataAndMap("");
+fetchDataAndMap("");
