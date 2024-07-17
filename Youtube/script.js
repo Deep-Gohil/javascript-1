@@ -6,6 +6,7 @@ const API = async (search) => {
 }
 
 const Mapper = (data) => {
+    document.getElementById("videoContainer").innerHTML = ""
     data.map((ele) => {
         // console.log(ele);
         let div = document.createElement("div")
