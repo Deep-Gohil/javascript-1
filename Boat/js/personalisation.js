@@ -117,6 +117,9 @@ const UiMaker = (products) => {
         price.innerHTML = ele.price;
         let button = document.createElement("button");
         button.innerHTML = "Add To Cart";
+        button.addEventListener("click", ()=> {
+            localStorage.setItem("cart", JSON.stringify(ele))
+        })
         let icon = document.createElement("p");
         icon.innerHTML = ele.icon;
         let playback = document.createElement("p");
@@ -138,3 +141,6 @@ const UiMaker = (products) => {
 
 UiMaker(products);
 document.getElementById("footer").innerHTML = Footer()
+document.getElementById("cart").addEventListener("click",()=>{
+    window.location.href = "/Boat/pages/cart.html"
+})

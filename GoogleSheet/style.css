@@ -1,0 +1,58 @@
+.parent{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#form{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.firstLast{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.firstAndLast{
+    width: 100px;
+}
+.arrow{
+    height: 25px;
+    width: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.lineParent{
+    width: 300px;
+}
+.line{
+    height: 2px;
+    width: 50%;
+    background-color: blue;
+}
+.linetwo{
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+}

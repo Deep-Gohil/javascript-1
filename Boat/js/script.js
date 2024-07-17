@@ -71,3 +71,8 @@ const shopByProductsMaker = (e) => {
 }
 shopByProductsMaker(shopByProducts)
 document.getElementById("footer").innerHTML = Footer()
+
+
+document.getElementById("cart").addEventListener("click",()=>{
+    window.location.href = "/Boat/pages/cart.html"
+})

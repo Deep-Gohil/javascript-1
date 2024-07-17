@@ -44,7 +44,7 @@ const Navbar = () => {
             <form class="d-flex align-items-center gap-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-bag-shopping" id="cart"></i>
             </form>
         </div>
     </div>
