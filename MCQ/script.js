@@ -69,7 +69,7 @@ const chekeAnswer = async (index, selectedOption,btn) => {
         alert(`Answer for question ${index + 1} is incorrect!`);
         btn.style.backgroundColor = "red"
     }
-   document.getElementById("correctAnswer").innerHTML = `Total Correct Answer ${correctAnswers}`
+   document.getElementById("correctAnswer").innerHTML = `Total Correct Answer: ${correctAnswers}`
 }
 
 
