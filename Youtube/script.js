@@ -15,9 +15,9 @@ const Mapper = (data) => {
         let image = document.createElement("img")
         let title = document.createElement("h6")
         let channelTitle = document.createElement("h5")
-
+        console.log(ele);
         image.src = ele.snippet.thumbnails.medium.url
-        image.classList.add("img-fluid")
+        image.classList.add("img-fluid","images")
         // console.log(ele);
         image.addEventListener("click", () => { 
             localStorage.setItem("videoID", JSON.stringify(ele.id.videoId))
@@ -50,3 +50,13 @@ const handleSearch = (e) => {
 document.getElementById("search").addEventListener("keypress", handleSearch)
 
 fetchDataAndMap("");
+
+
+const menu = document.querySelector('#menu');
+console.log(menu);
+const sidebar = document.querySelector('.sidebar');
+console.log(sidebar);
+
+menu.addEventListener('click', function () {
+  sidebar.classList.toggle('show-sidebar');
+});
