@@ -40,6 +40,13 @@ const Navbar = () => {
                         <li><a class="dropdown-item more" href="#">BoAt Community</a></li>
                     </ul>
                 </li>
+                
+                    <li class="nav-item">
+          <a class="nav-link btn btn-primary border border-2" href="/Boat/pages/signUP.html" >Sign-UP</a> </a>
+        </li>
+                    <li class="nav-item">
+          <a class="nav-link btn btn-primary border border-2" href="/Boat/pages/logIn.html" >Log-in</a> </a>
+        </li>
             </ul>
             <form class="d-flex align-items-center gap-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
