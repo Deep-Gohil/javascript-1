@@ -118,7 +118,9 @@ const UiMaker = (products) => {
         let button = document.createElement("button");
         button.innerHTML = "Add To Cart";
         button.addEventListener("click", ()=> {
-            localStorage.setItem("cart", JSON.stringify(ele))
+            alert("Added to cart");
+            localStorage.setItem("cart", JSON.stringify(ele.id))
+            window.location.href = "/Boat/pages/cart.html"
         })
         let icon = document.createElement("p");
         icon.innerHTML = ele.icon;
