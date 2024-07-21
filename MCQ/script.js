@@ -212,7 +212,16 @@ const Mapper = async () => {
         optionFour.addEventListener('click', () => { chekeAnswer(index, ele.option4, optionFour); });
 
         div.append(question, optionOne, optionTwo, optionThree, optionFour);
-        document.getElementById('questions').append(div);
+        if(data != null){
+            document.getElementById('questions').append(div);
+            let loader = document.getElementById("loader")
+            loader.classList.add('hidden');
+        }
+        else{
+            let loader = document.getElementById("loader")
+            loader.classList.remove('hidden');
+        }
+        
     });
     showQuestion(currentQuestionIndex);
 }
