@@ -13,10 +13,14 @@ const Caller = async() =>{
         Mapper(response)
         let loader = document.getElementById("loader")
         loader.classList.add('d-none');
+        let main = document.querySelector(".loadter-main")
+        main.classList.add("d-none")
     }
     {
         let loader = document.getElementById("loader")
         loader.classList.remove('d-block');
+        let main = document.querySelector(".loadter-main")
+        main.classList.add("d-block")
     }
 }
 
@@ -60,18 +64,6 @@ const Mapper = async(data) =>{
         div.append(image,name,rating,mealType,country,recepi)
 
         document.getElementById("recepies").append(div)
-       
-
-        // if(data != null){
-        //     document.getElementById("recepies").append(div)
-        //     let loader = document.getElementById("loader")
-        //     loader.classList.add('hidden');
-            
-        // }
-        // else{
-        //     let loader = document.getElementById("loader")
-        //     loader.classList.remove("hidden");
-        // }
     })
     
 }
