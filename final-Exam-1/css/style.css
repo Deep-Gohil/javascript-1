@@ -67,3 +67,32 @@
     justify-content: center;
     align-items: center;
 }
+.parentRecepie{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    /* align-items: center; */
+}
+.res{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imageRes{
+    width: 200px;
+    height: 200px;
+}
+.imageParent{
+    width: 440px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}

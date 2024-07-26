@@ -54,9 +54,13 @@ const Mapper = async(data) =>{
         let viewRecepie = document.createElement("button")
         viewRecepie.innerHTML = "View Recepie"
         viewRecepie.classList.add("btn","btn-primary")
+        viewRecepie.addEventListener("click", ()=>{
+            window.location.href = "/final-Exam-1/pages/recepie.html"
+            localStorage.setItem("recepie",JSON.stringify(ele))
+        })
 
         let ingredients = document.createElement("button")
-        ingredients.innerHTML = "View Ingredients"
+        ingredients.innerHTML = "Order Now"
         ingredients.classList.add("btn","btn-primary")
 
         recepi.append(viewRecepie, ingredients)
