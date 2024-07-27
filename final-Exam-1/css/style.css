@@ -35,6 +35,7 @@
     text-align: center;
 }
 #recepies{
+    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 3%;
@@ -61,7 +62,7 @@
     margin-bottom: 10px;
 }
 .loadter-main{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -95,4 +96,13 @@
     height: 200px;
     display: flex;
     justify-content: center;
+}
+.filtering{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    color: white;
 }

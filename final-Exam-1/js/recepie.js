@@ -9,9 +9,5 @@ image.classList.add("img-flui","imageRes")
 let name = document.getElementById("name")
 name.innerHTML = data.name
 
-const mapper = () =>{
-    let ingredients = data.
-    data.ingredients.map((ele) => {
-        
-    })
-}
+let ingredients = document.getElementById("instructions")
+ingredients.innerHTML = `Ingredients: ${data.ingredients}`
