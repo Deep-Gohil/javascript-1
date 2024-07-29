@@ -62,7 +62,7 @@
     margin-bottom: 10px;
 }
 .loadter-main{
-    height: 90vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -104,5 +104,41 @@
     justify-content: center;
     align-items: center;
     gap: 2%;
+    color: white;
+}
+#cart {
+    margin: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item h2 {
+    flex: 1;
+}
+
+.cart-item p {
+    margin: 0 10px;
+}
+
+.cart-item button {
+    margin: 0 5px;
+}
+
+#checkout {
+    margin-top: 20px;
+}
+.upBox{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
